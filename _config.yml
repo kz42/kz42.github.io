@@ -1,1 +1,7 @@
+title: "Keyuan Zhang"
+email: kz327@cornell.edu
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kz42.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: kz42
+logo: /assets/images/kz.jpg
 theme: jekyll-theme-minimal

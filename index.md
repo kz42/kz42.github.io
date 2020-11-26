@@ -13,7 +13,7 @@ Selected Projects
 
 **1. Real-time Communication with Virtual Background**<br />[[Doc](assets/docs/virtual_background/virtual_background.pdf){: .small__tt}] [[Web Demo](https://kz42.github.io/projects/virtual_background/){: .small__tt}] [[Real-time Virtual Background Video Demo](assets/videos/virtual_bkg.MP4){: .small__tt}] [[Real-time Blur Background Video Demo](assets/videos/blur_bkg.MP4){: .small__tt}]
 
-I demonstrated a model to replace the background in real-time video communication by tackling the problem of portrait matting on mobile devices. The proposed model solves issues of previous models and achieves real-time inference speed while maintaining high visual performance. The Virtual background feature can attain over 25 FPS on 720P on iPhone11 in real-time video communication.
+I demonstrated a model to replace the background in real-time video communication by tackling portrait matting on mobile devices. The proposed model solves issues of previous models and achieves real-time inference speed while maintaining high visual performance. The Virtual background feature can attain over 25 FPS on 720P on iPhone11 in real-time video communication.
 {: style="text-align: justify;"}
 
 I've uploaded two video demos for real-time background editing using the proposed model.
@@ -22,7 +22,7 @@ I've uploaded two video demos for real-time background editing using the propose
 
 **2. Real-time Face Detection and Facial Landmark**<br />[[Doc](assets/docs/face/face.pdf){: .small__tt}] [[Video Demo](assets/videos/face.MP4){: .small__tt}]
 
-Face detector and facial landmark is fundamental to other advanced tasks, for example, face recognition, liveness detection, and face editing. In this project, I will demonstrate how to integrate the two open-source works to build a high-performance facial landmark detector, the improvements, and modifications I've made for each work. The integrated model can achieve over 24FPS on iPhone X.
+Face detectors and facial landmarks are fundamental to other advanced tasks, such as face recognition, liveness detection, and face editing. In this project, I will demonstrate how to integrate the two open-source works to build a high-performance facial landmark detector, the improvements, and modifications I’ve made for each piece. The integrated model can achieve over 24FPS on iPhone X.
 {: style="text-align: justify;"}
 
 ![face-visual](assets/images/face_model_visual.jpeg){: style="width:100%;"}

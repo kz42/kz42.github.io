@@ -36,7 +36,6 @@ async function refresh() {
     if (frame_count == 1) {
         status.innerText = 'Result is loaded!'
     }
-    var t0 = performance.now()
     frame_count++
     tf.tidy(() => {
         tf.engine().startScope()
@@ -52,7 +51,5 @@ async function refresh() {
         tf.dispose(prediction)
         tf.dispose(output)
     })
-    var t1 = performance.now()
-    console.log("total time " + (t1 - t0) + " milliseconds.")
     setTimeout(refresh, 40)
 }

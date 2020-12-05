@@ -26,7 +26,7 @@ export class MyModel {
 
     predict(input) {
         const reshapedInput = 
-            input.reshape([1, ...input.shape]);
+            input.reshape([1, ...input.shape])
         const output = this.model.execute(
             {[INPUT_NODE]: reshapedInput}, OUTPUT_NODE);
         return output;
@@ -42,7 +42,6 @@ export class MyModel {
         //get fg & bg from softmax prediction
         const Mfg = prediction.slice([0,0,0,1], [-1,-1,-1,-1]).reshape([256,256,1])
         const Mbg = prediction.slice([0,0,0,0], [-1,-1,-1,1]).reshape([256,256,1])
-        //
         const output = 
             tf.add(tf.mul(fg, Mfg), tf.mul(bkg_tensor, Mbg)).resizeBilinear([270,360]).asType('int32')
         return output;

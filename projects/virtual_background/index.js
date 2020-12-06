@@ -35,7 +35,7 @@ async function main() {
 }
 
 async function refresh() {
-    if (frame_count == 1) {
+    if (frame_count == 2) {
         status.innerText = 'Result is loaded!'
     }
     frame_count++
@@ -45,8 +45,9 @@ async function refresh() {
             tf.browser.fromPixels(input_video).resizeBilinear([256,256]).asType('float32')
         const prediction = model.predict(fromPixels)
         const output = model.blend(fromPixels, prediction)
-        tf.browser.toPixels(output, output_canvas)
-
+        if (frame_count >= 2) {
+            tf.browser.toPixels(output, output_canvas)
+        }
         tf.engine().endScope()
         //dispose tensor
         tf.dispose(fromPixels)

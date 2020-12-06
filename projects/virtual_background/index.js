@@ -34,10 +34,10 @@ async function main() {
 }
 
 async function refresh() {
+    frame_count++
     if (frame_count == 2) {
         status.innerText = 'Result is loaded!'
     }
-    frame_count++
     tf.tidy(() => {
         tf.engine().startScope()
         const fromPixels = 

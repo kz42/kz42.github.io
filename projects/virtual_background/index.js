@@ -18,13 +18,12 @@ async function main() {
     status.innerText = 'Loading result...'
     const stream = await navigator.mediaDevices.getUserMedia({video: true})
     const relativeLeft = ((window.screen.width - input_video.width)/2)/window.screen.width * 100
-    input_video.srcObject = stream
 
+    input_video.srcObject = stream
     input_video.style.margin = 'auto'
     input_video.style.position ='absolute'
     input_video.style.top = '20%'
     input_video.style.left = relativeLeft.toString()+'%'
-    input_video.style.setProperty('display', 'none', 'important')
     await input_video.play()
 
     output_canvas.style.position='absolute'

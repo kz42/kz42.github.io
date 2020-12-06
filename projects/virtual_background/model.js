@@ -12,7 +12,6 @@ export class MyModel {
             MODEL_URL);
         //get background tensor from img
         background_img.src = BACKGROUND_URL
-        background_img.style.display = 'none'
         background_img.onload = () => {
             bkg_tensor = tf.browser.fromPixels(background_img).asType('float32');
         }

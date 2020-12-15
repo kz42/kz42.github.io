@@ -20,7 +20,7 @@ I've uploaded two video demos for real-time background editing using the propose
 
 ![vb-visual](assets/images/vb_model_visual.jpeg){: style="width:100%;"}
 
-**2. Real-time Face Detection and Facial Landmark**<br />[[Doc](assets/docs/face/face.pdf){: .small__tt}] [[Video Demo](assets/videos/face.MP4){: .small__tt}]
+**2. Real-time Face Detection and Facial Landmark**<br />[[Doc](assets/docs/face/face_detection_landmark.pdf){: .small__tt}] [[Video Demo](assets/videos/face.MP4){: .small__tt}]
 
 Face detectors and facial landmarks are fundamental to other advanced tasks, such as face recognition, liveness detection, and face editing. In this project, I will demonstrate how to integrate the two open-source works to build a high-performance facial landmark detector, the improvements, and modifications I’ve made for each piece. The integrated model can achieve over 24FPS on iPhone X.
 {: style="text-align: justify;"}

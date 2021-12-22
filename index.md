@@ -18,6 +18,8 @@ I demonstrated a model to replace the background in real-time video communicatio
 
 I've uploaded two video demos for real-time background editing using the proposed model.
 
+*<font size=3>Note: Model was trained with public datasets in doc. We are working on a more stable result in the RTC scenario.</font>*
+
 ![vb-visual](assets/images/vb_model_visual.jpeg){: style="width:100%;"}
 
 **2. Real-time Face Detection and Facial Landmark**<br />[[Doc](assets/docs/face/face_detection_landmark.pdf){: .small__tt}] [[Video Demo](assets/videos/face.MP4){: .small__tt}]

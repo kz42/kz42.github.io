@@ -1,4 +1,4 @@
-I am a computer vision algorithm engineer work at [Juphoon System Software](https://www.juphoon.com/en/). Previously, I graduated from Conell University with a master's degree in Electrical Engineering. Even before that, I was an undergraduate student at Purdue University.
+I am a computer vision algorithm engineer work at [Juphoon System Software](https://www.juphoon.com/en/). Previously, I graduated from Cornell University with a master's degree in Electrical Engineering. Even before that, I was an undergraduate student at Purdue University.
 {: style="text-align: justify;"}
 
 My research focuses on computer vision and the intersection of vision and other fields (language and sound). In particular, I aim to leverage these to better understand complex human activities through multiple senses. I am also interested in video understanding, human activity recognition, and video enhancement.

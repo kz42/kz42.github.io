@@ -6,7 +6,7 @@ My research focuses on computer vision and the intersection of vision and other 
 
 Besides research, I enjoy photography, cooking, and fitness.
 
-Please find my CV [here](assets/docs/about/CV_KeyuanZhang.pdf)
+Please find my CV [here](assets/docs/about/CV_202304.pdf)
 
 Selected Projects
 ----------------------
@@ -29,4 +29,7 @@ Face detectors and facial landmarks are fundamental to other advanced tasks, suc
 
 ![face-visual](assets/images/face_model_visual.jpeg){: style="width:100%;"}
 
+The proposed facial landmark detector uses regression supervision. While detectors trained with regression supervision are generally accurate in most cases, they may expose problems with insufficient robustness in some special cases, such as blinking or opening the mouth, which are essential for facial expression recognition. To address this issue, I use heatmap-assisted supervision, which makes greater use of local information and supervises the learning of each individual keypoint. [[Video Demo](assets/videos/blink.mp4){: .small__tt}]
+{: style="text-align: justify;"}
 
+![face-visual2](assets/images/face_model_visual2.jpg){: style="width:100%;"}
